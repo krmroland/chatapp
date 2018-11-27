@@ -1,0 +1,8 @@
+@import 'variables';
+@import 'reset';
+@import 'sidebar';
+@import 'main';
+@import 'contacts';
+.app {
+    display: flex;
+}

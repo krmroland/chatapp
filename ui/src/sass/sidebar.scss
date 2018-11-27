@@ -1,0 +1,37 @@
+.sidebar {
+    height: 100vh;
+    background-color: $primary-light;
+    color: $white;
+    flex: 0 0 15%;
+    .header {
+        padding: 2rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        svg {
+            height: 4rem;
+            width: 4rem;
+        }
+    }
+    .links {
+        margin-top: 10px;
+        color: $dark-gray;
+        a {
+            display: block;
+            text-decoration: none;
+            padding: 0.25rem 1.5rem;
+            &.active {
+                color: $white;
+                background-color: lighten($primary-light, 10);
+                border-right: 4px solid $tertiary-light;
+            }
+        }
+        svg {
+            vertical-align: middle;
+            width: 2rem;
+            height: 2rem;
+            padding-right: 0.5em;
+        }
+    }
+}

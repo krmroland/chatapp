@@ -1,0 +1,22 @@
+.contacts {
+    width: 100%;
+    .contact {
+        display: block;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-size: 1.2rem;
+        img {
+            border-radius: 50%;
+            display: block;
+            border: 4px solid $gray;
+        }
+        margin-bottom: 1rem;
+    }
+    .contact-details {
+        margin-left: 1em;
+    }
+    .contact-name {
+        font-weight: 600;
+    }
+}
